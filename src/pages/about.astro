@@ -1,0 +1,320 @@
+---
+import Bubble from "../components/Bubble.astro";
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const languages = [
+  "JavaScript",
+  "TypeScript",
+  "Java",
+  "C",
+  "C++",
+  "Python",
+  "PHP",
+  "SQL",
+  "Haskell",
+];
+
+const frameworks = [
+  "Angular",
+  "React",
+  "Spring Boot",
+  "Android Studio",
+  "Ruby on Rails",
+  "Docker",
+  "Git",
+  "GitHub Actions",
+];
+
+const databases = ["MySQL", "PostgreSQL", "MongoDB"];
+---
+
+<BaseLayout title="About | Corentin Bozec" description="Full-Stack Developer">
+  <div class="stack gap-20">
+    <main class="wrapper about">
+      <Hero
+        title="Corentin Bozec"
+        tagline="Developer Full-Stack"
+      />
+
+      <section>
+        <h2 class="section-title">Who I Am</h2>
+        <div class="content">
+          <p>
+            I'm <strong>Corentin Bozec</strong>, a passionate <strong
+              >Full-Stack Developer</strong
+            > specialized in designing and building modern web applications and software.
+            With a
+            <strong
+              >Master's in Software Architecture & Application Development</strong
+            > from <em>EPITECH Paris</em> and a <strong
+              >certification in Secured Infrastructure Administration</strong
+            > from <em>Jedha</em>, I focus on delivering
+            <strong>robust, secure, and quality-oriented</strong> solutions.
+          </p>
+          <p>
+            My <strong>three years in apprenticeship</strong> taught me how to work
+            effectively in real-world environments, adapt quickly to diverse technical
+            stacks, and collaborate within cross-functional teams. I'm autonomous,
+            thorough, and a good listener fully invested in each project to craft
+            solutions that match <strong>real user needs</strong>.
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Experience</h2>
+        <div class="content">
+          <div>
+            <header>
+              <p>
+                <strong>Sopra Steria — Full-Stack Developer (2023-2024)</strong>
+              </p>
+            </header>
+            <p>
+              Ministry of Justice - Development of new features for a
+              large-scale platform dedicated to case management and youth
+              placement tracking within the justice system
+            </p>
+            <div>
+              <span><Bubble>Angular</Bubble></span>
+              <span><Bubble>Spring Boot</Bubble></span>
+              <span><Bubble>SQL</Bubble></span>
+              <span><Bubble>Agile / Scrum</Bubble></span>
+            </div>
+            <br />
+            <ul>
+              <li><p>Worked in a 20 persons Agile squad.</p></li>
+              <li>
+                <p>
+                  Designed and implemented a calendar system to manage complex
+                  scheduling workflows and numerous interactive forms for data
+                  entry and validation.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Developed and maintained automated tests on both frontend
+                  (Jasmine) and backend (Spring Test, Mockito) to ensure
+                  reliability and long-term maintainability.
+                </p>
+              </li>
+            </ul>
+            <br />
+            <p>
+              <i>
+                Strengthened my expertise in full-stack development, testing
+                culture, and collaboration within a large Agile team.
+              </i>
+            </p>
+          </div>
+          <br />
+          <br />
+
+          <div>
+            <header>
+              <p>
+                <strong
+                  >Sagemcom — Embedded Systems Developer (2022-2023)</strong
+                >
+              </p>
+            </header>
+            <p>
+              Android-based TV Decoder - Development of innovative embedded and
+              mobile features for next-generation home entertainment systems.
+            </p>
+            <div>
+              <span><Bubble>Java</Bubble></span>
+              <span><Bubble>C</Bubble></span>
+              <span><Bubble>Android Studio</Bubble></span>
+            </div>
+            <br />
+            <ul>
+              <li>
+                <p>
+                  Worked within a 6 persons transverse team supporting multiple
+                  product squads.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Designed and developed a new pairing interface for remote
+                  controls, improving user setup and connectivity.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Implemented LED color synchronization with the active
+                  application (e.g., Netflix glowing red) to enhance user
+                  experience.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Created from scratch a mobile companion app in Android Studio,
+                  allowing users to control the TV decoder remotely and use it
+                  as a second screen.
+                </p>
+              </li>
+            </ul>
+            <br />
+            <p>
+              <i>
+                Deepened my understanding of embedded Android development,
+                performance optimization, and cross-team collaboration in a
+                high-tech environment.
+              </i>
+            </p>
+          </div>
+          <br />
+          <br />
+
+          <div>
+            <header>
+              <p><strong>Thales — Software Developer (2022)</strong></p>
+              <span>Massy · 5-person Feature Team</span>
+            </header>
+            <p>
+              ANTARES Test Bench Automation - Design and optimization of testing
+              tools for defense-grade systems.
+            </p>
+            <div>
+              <span><Bubble>Bash</Bubble></span>
+              <span><Bubble>Java</Bubble></span>
+              <span><Bubble>Jenkins</Bubble></span>
+            </div>
+            <br />
+            <ul>
+              <li>
+                <p>
+                  Worked within a 5 persons feature team focused on automating
+                  test and validation processes.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Developed CI/CD scripts in Bash and Java to automate unit
+                  testing, reporting, and continuous integration.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Improved build reliability and created detailed documentation
+                  to ensure process reproducibility across teams.
+                </p>
+              </li>
+            </ul>
+            <br />
+            <p>
+              <i>
+                Strengthened my expertise in CI/CD automation, scripting, and
+                software quality assurance within a rigorous engineering
+                environment.
+              </i>
+            </p>
+          </div>
+        </div>
+      </section>
+      <br />
+
+      <section>
+        <h2 class="section-title">Education</h2>
+        <div class="content">
+          <strong>EPITECH Paris</strong> — Master's: Software Architecture & Application
+          Development <em>(2022-2024)</em>
+          <br />
+          <strong>EPITECH Paris</strong> — Bachelor: Web & Application Project Management
+          <em>(2019-2022)</em>
+          <br />
+          <strong>Jedha</strong> — Certification: Secured Infrastructure Administration
+          <em>(2024-2025)</em>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Languages</h2>
+        <div class="content">
+          <div class="content">
+            {languages.map((lang) => <Bubble>{lang}</Bubble>)}
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Frameworks & Tools</h2>
+        <div class="content">
+          <div class="content">
+            {frameworks.map((tool) => <Bubble>{tool}</Bubble>)}
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="section-title">Databases</h2>
+        <div class="content">
+          <div class="content">
+            {databases.map((db) => <Bubble>{db}</Bubble>)}
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <ContactCTA />
+  </div>
+</BaseLayout>
+
+<style>
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+  }
+
+  img {
+    margin-top: 1.5rem;
+    border-radius: 1.5rem;
+    box-shadow: var(--shadow-md);
+  }
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: var(--gray-200);
+  }
+
+  .section-title {
+    grid-column-start: 1;
+    font-size: var(--text-xl);
+    color: var(--gray-0);
+  }
+
+  .content {
+    grid-column: 2 / 4;
+  }
+
+  .content :global(a) {
+    text-decoration: 1px solid underline transparent;
+    text-underline-offset: 0.25em;
+    transition: text-decoration-color var(--theme-transition);
+  }
+
+  .content :global(a:hover),
+  .content :global(a:focus) {
+    text-decoration-color: currentColor;
+  }
+
+  @media (min-width: 50em) {
+    .about {
+      display: grid;
+      grid-template-columns: 1fr 60% 1fr;
+    }
+
+    .about > :global(:first-child) {
+      grid-column-start: 2;
+    }
+
+    section {
+      display: contents;
+      font-size: var(--text-lg);
+    }
+  }
+</style>
