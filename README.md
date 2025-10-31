@@ -40,5 +40,5 @@ This portfolio was built from the official **[Astro Starter Kit: Portfolio](http
 
 Feel free to reach out or check out my work:
 
-- **GitHub:** [@your-github-username](https://github.com/orgs/PortfolioChilderic/repositories)
-- **LinkedIn:** [Your Name](https://www.linkedin.com/in/corentin-bozec-6513401b1/)
+- **GitHub:** [@Childeric](https://github.com/orgs/PortfolioChilderic/repositories)
+- **LinkedIn:** [Corentin BOZEC](https://www.linkedin.com/in/corentin-bozec-6513401b1/)
