@@ -3,7 +3,7 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://childeric.github.io',
+  site: 'https://portfoliochilderic.github.io',
   base: '/portfolio/',
   output: 'static',
   trailingSlash: 'ignore',
